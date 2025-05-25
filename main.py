@@ -244,9 +244,10 @@ def main():
         except Exception as e:
             print(f"快捷输入错误: {e}")
             return
-    
     print("=" * 50)
     print("100% Orange Juice DEF/EVD 胜率计算器")
+    print("=" * 50)
+    print("GitHub项目地址: https://github.com/FogMoe/ojcal")
     print("=" * 50)
     print("提示: 骰子配置格式例如 '6' (一个6面骰) 或 '6,6' (两个6面骰) 或 '4,6' (一个4面骰+一个6面骰)")
     print("快捷模式: python main.py -q \"hp,攻击,def,evd[,骰子1,骰子2...]\" 或 \"hp 攻击 def evd [骰子1 骰子2]\"")
